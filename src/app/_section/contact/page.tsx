@@ -11,7 +11,7 @@ export default function Contact() {
                                 Get in Touch
                             </h2>
                             <p className="mt-6 text-md text-gray-900">
-                                Have questions or ready to learn more about how Bug Bug Consulting can transform your pest management? We're here to help.
+                                Have questions or ready to learn more about how Bug Bug Consulting can transform your pest management? We`re here to help.
                             </p>
                         </div>
         
@@ -43,7 +43,7 @@ export default function Contact() {
                         <div>
                             <label className="block text-xs font-semibold uppercase mb-1 tracking-wide">Phone Number (Optional)</label>
                             <input type="tel" placeholder="+1 234 567 8901" className="w-full border border-gray-400 bg-white px-4 py-2 rounded-lg" />
-                            <p className="text-xs text-gray-600 mt-1">Include your phone number if you'd like us to call you.</p>
+                            <p className="text-xs text-gray-600 mt-1">Include your phone number if you`d like us to call you.</p>
                         </div>
 
                         { /* Subject */ }
