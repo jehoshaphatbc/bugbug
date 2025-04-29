@@ -5,15 +5,20 @@
   --foreground: #171717;
   --primary: #375845;
   --secondary: #AFC083;
+  --dark-primary: #22362A;
   --light: #EFF2E8;
+  --baby-powder: #FAFAFA;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
+  --color-dark-primary: var(--dark-primary);
   --color-secondary: var(--secondary);
   --color-light: var(--light);
+  --color-baby-powder: var(--baby-powder);
+
   --font-sans: var(--font-inclusive-sans);
   --font-mono: var(--font-inclusive-mono);
 }
@@ -22,8 +27,10 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --dark-primary: #22362A;
     --primary: #375845;
     --secondary: #AFC083;
+    --baby-powder: #FAFAFA;
     --light: #EFF2E8;
   }
 }
@@ -36,4 +43,20 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: "Inclusive Sans", sans-serif;
+}
+
+.swiper-pagination-bullet {
+  border:solid 1px #375845!important;
+  background: transparent!important;
+  height: 14px!important;
+  width: 14px!important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #375845!important;
+}
+
+.custom-pagination {
+  margin-top: 20px;
+  text-align: center;
 }

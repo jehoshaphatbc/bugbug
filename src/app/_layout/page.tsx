@@ -44,7 +44,7 @@ export default function Navigation() {
 
     return (
         <section className="flex justify-center">
-            <header className="z-10 max-w-7xl w-full fixed top-0 sm:top-8 bg-primary rounded-none sm:rounded-xl shadow-lg">
+            <header className="z-50 max-w-7xl w-full fixed top-0 sm:top-8 bg-primary rounded-none sm:rounded-lg shadow-lg">
                 <div className="px-6 sm:px-14 py-6 flex justify-between items-center">
                     <Image
                         src={`/logo.svg`}
