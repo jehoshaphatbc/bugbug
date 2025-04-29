@@ -15,7 +15,7 @@ export default function Why() {
             <section className="relative bg-secondary" id="why">
                 <div className="grid grid-cols-1 sm:grid-cols-2 mx-auto max-w-7xl py-36 gap-8 sm:gap-20 px-8">
                     <div className="w-full h-96 col-span-full sm:col-span-1">
-                        <Image src="/why.jpg" width={1000} height={1000} alt="alt" className="object-cover rounded-xl h-full w-full"></Image>
+                        <Image src="./why.jpg" width={1000} height={1000} alt="alt" className="object-cover rounded-xl h-full w-full"></Image>
                     </div>
                     <div className="col-span-full sm:col-span-1 flex flex-col justify-between">
                         <div>

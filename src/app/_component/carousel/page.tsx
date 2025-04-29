@@ -48,13 +48,13 @@ export default function Carousel() {
                     ref={prevRef}
                     className="absolute hidden sm:block top-1/2 -left-20 z-10 transform -translate-y-1/2 border border-black hover:bg-white p-2 rounded-xl hover:shadow-lg transition ease-in-out duration-150"
                 >
-                    <Image width={100} height={100} alt="" src="/arrow-left.svg" className="w-8 h-8" />
+                    <Image width={100} height={100} alt="" src="./arrow-left.svg" className="w-8 h-8" />
                 </button>
                 <button
                     ref={nextRef}
                     className="absolute hidden sm:block top-1/2 -right-20 z-10 transform -translate-y-1/2 border border-black hover:bg-white p-2 rounded-xl hover:shadow-lg transition ease-in-out duration-150"
                 >
-                    <Image width={100} height={100} alt="" src="/arrow-right.svg" className="w-8 h-8" />
+                    <Image width={100} height={100} alt="" src="./arrow-right.svg" className="w-8 h-8" />
                 </button>
 
                 <Swiper
@@ -87,7 +87,7 @@ export default function Carousel() {
                             key={index}
                             className="bg-white rounded-xl p-8 flex flex-col justify-between min-h-96"
                         >
-                            <Image src="/quote.svg" width={100} height={100} alt="" className="w-10" />
+                            <Image src="./quote.svg" width={100} height={100} alt="" className="w-10" />
                             <p className="italic tracking-wide leading-normal mt-6">{item.body}</p>
                             <div className="mt-4">
                                 <p className="uppercase tracking-[3px] text-sm">{item.name}</p>

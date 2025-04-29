@@ -25,7 +25,7 @@ export default function Hero() {
                         </div>
                     </div>
                     <div className="h-full col-span-full sm:col-span-1">
-                        <Image src="/hero.jpg" quality={100} width={1000} height={1000} alt="alt" className="w-full h-[63vh] rounded-xl object-cover"></Image>
+                        <Image src="./hero.jpg" quality={100} width={1000} height={1000} alt="alt" className="w-full h-[63vh] rounded-xl object-cover"></Image>
                     </div>
 
                 </div>

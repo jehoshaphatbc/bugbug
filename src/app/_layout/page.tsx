@@ -47,7 +47,7 @@ export default function Navigation() {
             <header className="z-50 max-w-7xl w-full fixed top-0 sm:top-8 bg-primary rounded-none sm:rounded-lg shadow-lg">
                 <div className="px-6 sm:px-14 py-6 flex justify-between items-center">
                     <Image
-                        src={`/logo.svg`}
+                        src={`./logo.svg`}
                         alt="Logo"
                         width="200"
                         height="32"
@@ -169,7 +169,7 @@ export default function Navigation() {
                                     <span className="sr-only">Your Company</span>
                                     <Image
                                         alt=""
-                                        src="/logo.svg"
+                                        src="./logo.svg"
                                         className="h-8 w-auto"
                                         width={100}
                                         height={100}

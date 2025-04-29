@@ -38,7 +38,7 @@ export default function Footer() {
                             width={100}
                             height={100}
                             alt="Company name"
-                            src="/logo.svg"
+                            src="./logo.svg"
                             className="w-80"
                         />
                         <p className="tracking-wider leading-relaxed text-md text-white">

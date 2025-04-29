@@ -16,9 +16,9 @@ export default function Contact() {
                         </div>
         
                         <div className="flex gap-4 justify-between mt-10">
-                            <Image src="/certified.svg" width={100} height={100} alt="" className="w-20 sm:w-80" />
-                            <Image src="/certified.svg" width={100} height={100} alt="" className="w-20 sm:w-80" />
-                            <Image src="/certified.svg" width={100} height={100} alt="" className="w-20 sm:w-80" />
+                            <Image src="./certified.svg" width={100} height={100} alt="" className="w-20 sm:w-80" />
+                            <Image src="./certified.svg" width={100} height={100} alt="" className="w-20 sm:w-80" />
+                            <Image src="./certified.svg" width={100} height={100} alt="" className="w-20 sm:w-80" />
                         </div>
                     </div>
                 </div>
