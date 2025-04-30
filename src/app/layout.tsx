@@ -4,7 +4,10 @@ import Navigation from "./_layout/page";
 
 import { Inclusive_Sans } from 'next/font/google'
 
-const inclusive = Inclusive_Sans({ weight:'400' })
+const inclusive = Inclusive_Sans({ 
+  weight:'400',
+  subsets: ['latin']
+})
 
 export const metadata: Metadata = {
   title: "Bug Bug",
