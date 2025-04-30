@@ -90,7 +90,10 @@ export default function Carousel() {
                             <Image src="./quote.svg" width={100} height={100} alt="" className="w-10" />
                             <p className="italic tracking-wide leading-normal mt-6">{item.body}</p>
                             <div className="mt-4">
-                                <p className="uppercase tracking-[3px] text-sm">{item.name}</p>
+                                <p className="uppercase tracking-[3px] text-sm flex items-center gap-4">
+                                    <div className="border-b border-gray-400 w-10"></div>
+                                    <span>{item.name}</span>
+                                </p>
                                 <p className="uppercase tracking-[3px] text-sm">{item.company}</p>
                             </div>
                         </SwiperSlide>
