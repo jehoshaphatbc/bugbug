@@ -24,7 +24,7 @@ export default function Contact() {
                 </div>
 
                 <div className="flex flex-col justify-between pb-20 sm:py-32 lg:py-48">
-                    <form action="#" method="POST" className="bg-light p-10 space-y-6 rounded-lg">
+                    <form action="#" method="POST" className="bg-gray-light p-10 space-y-6 rounded-lg">
                         { /* Name */ }
                         <div>
                             <label className="block text-xs font-semibold uppercase mb-1 tracking-wide">Name</label>

@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Hero() {
     return (
         <>
-            <section className="sm:sticky w-full top-0 bg-light">
+            <section className="sm:sticky w-full top-0 bg-gray-light">
                 <div className="max-w-7xl mx-auto h-full grid grid-cols-3 px-8 gap-4 pb-28 sm:py-[20vh]">
                     <div className="h-full col-span-full sm:col-span-2">
                         <span className="text-gray-500 text-xl tracking-wider">AI-powered insect monitoring tools</span>
@@ -14,7 +14,7 @@ export default function Hero() {
                         </h1>
 
                         <div className="flex gap-4 mt-10">
-                        <Link href="/" className="rounded-lg bg-primary px-6 py-4 text-light transition duration-150 ease-in-out hover:bg-dark-primary">
+                        <Link href="/" className="rounded-lg bg-primary px-6 py-4 text-gray-light transition duration-150 ease-in-out hover:bg-dark-primary">
                             Learn More
                         </Link>
 

@@ -85,7 +85,7 @@ export default function Insight() {
                             key={article.id}
                             className="flex flex-col sm:flex-row items-stretch overflow-hidden gap-6 group"
                         >
-                            <div className="flex-1 bg-light p-8 rounded-lg border border-light group-hover:border-primary duration-300 flex flex-col justify-between">
+                            <div className="flex-1 bg-gray-light p-8 rounded-lg border border-gray-light group-hover:border-primary duration-300 flex flex-col justify-between">
                                 <div>
                                     <div className="grid grid-cols-1 sm:grid-cols-3">
                                         <p className="text-xs col-span-full sm:col-span-1 uppercase tracking-[3px] mb-2">{article.date}</p>
@@ -113,7 +113,7 @@ export default function Insight() {
                     ))}
                 </div>
                 <div className="text-center mt-16">
-                    <Link href="/" className="rounded-lg bg-primary text-center uppercase text-xs tracking-[3px] px-6 py-4 text-light inline-flex transition duration-150 ease-in-out hover:bg-dark-primary">
+                    <Link href="/" className="rounded-lg bg-primary text-center uppercase text-xs tracking-[3px] px-6 py-4 text-gray-light inline-flex transition duration-150 ease-in-out hover:bg-dark-primary">
                         Visit Our Blog
                     </Link>
                 </div>

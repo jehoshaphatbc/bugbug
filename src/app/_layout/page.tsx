@@ -58,7 +58,7 @@ export default function Navigation() {
                         <button
                             type="button"
                             onClick={() => setMobileMenuOpen(true)}
-                            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-light"
+                            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-light"
                         >
                             <span className="sr-only">Open main menu</span>
                             <Bars3Icon aria-hidden="true" className="size-6" />
@@ -68,14 +68,14 @@ export default function Navigation() {
                     <PopoverGroup className="hidden lg:flex lg:gap-x-12">
                         <Link
                             href="/"
-                            className="relative uppercase tracking-[3px] py-3 text-xs text-white hover:text-light duration-150 transition ease-in-out group"
+                            className="relative uppercase tracking-[3px] py-3 text-xs text-white hover:text-gray-light duration-150 transition ease-in-out group"
                         >
                             About Us
                             <span className="absolute left-0 bottom-0 h-[1px] w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
                         </Link>
 
                         <Popover className="relative">
-                            <PopoverButton className="relative inline-flex items-start uppercase tracking-[3px] py-3 text-xs text-white hover:text-light duration-150 transition ease-in-out group">
+                            <PopoverButton className="relative inline-flex items-start uppercase tracking-[3px] py-3 text-xs text-white hover:text-gray-light duration-150 transition ease-in-out group">
                             <div className="flex gap-1 items-center">
                                 <span>Solutions</span>
                                 <ChevronDownIcon aria-hidden="true" className="size-5 -mt-0.5 flex-none text-gray-400" />
@@ -122,7 +122,7 @@ export default function Navigation() {
                         </Popover>
                         <Link
                             href="/"
-                            className="relative uppercase tracking-[3px] py-3 text-xs text-white hover:text-light duration-150 transition ease-in-out group"
+                            className="relative uppercase tracking-[3px] py-3 text-xs text-white hover:text-gray-light duration-150 transition ease-in-out group"
                         >
                             Grants and Collaborations
                             <span className="absolute left-0 bottom-0 h-[1px] w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
@@ -130,7 +130,7 @@ export default function Navigation() {
 
                         <Link
                             href="/"
-                            className="relative uppercase tracking-[3px] py-3 text-xs text-white hover:text-light duration-150 transition ease-in-out group"
+                            className="relative uppercase tracking-[3px] py-3 text-xs text-white hover:text-gray-light duration-150 transition ease-in-out group"
                         >
                             In The News
                             <span className="absolute left-0 bottom-0 h-[1px] w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
@@ -138,7 +138,7 @@ export default function Navigation() {
 
                         <Link
                             href="/"
-                            className="duration-150 transition ease-in-out rounded-lg bg-light p-4 text-primary text-xs uppercase tracking-[3px] border border-light hover:bg-primary/80 hover:text-light"
+                            className="duration-150 transition ease-in-out rounded-lg bg-gray-light p-4 text-primary text-xs uppercase tracking-[3px] border border-gray-light hover:bg-primary/80 hover:text-gray-light"
                         >
                             Contact Us
                         </Link>
@@ -227,7 +227,7 @@ export default function Navigation() {
                                         </Link>
                                         <Link
                                             href="#"
-                                            className="-mx-3 uppercase tracking-[3px] block bg-primary text-light rounded-lg px-3 py-2 text-center hover:bg-gray-50"
+                                            className="-mx-3 uppercase tracking-[3px] block bg-primary text-gray-light rounded-lg px-3 py-2 text-center hover:bg-gray-50"
                                         >
                                             Contact Us
                                         </Link>

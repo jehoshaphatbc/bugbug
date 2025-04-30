@@ -6,7 +6,7 @@
   --primary: #375845;
   --secondary: #AFC083;
   --dark-primary: #22362A;
-  --light: #EFF2E8;
+  --gray-light: #EFF2E8;
   --baby-powder: #FAFAFA;
 }
 
@@ -16,7 +16,7 @@
   --color-primary: var(--primary);
   --color-dark-primary: var(--dark-primary);
   --color-secondary: var(--secondary);
-  --color-light: var(--light);
+  --color-gray-light: var(--gray-light);
   --color-baby-powder: var(--baby-powder);
 
   --font-sans: var(--font-inclusive-sans);
@@ -31,7 +31,7 @@
     --primary: #375845;
     --secondary: #AFC083;
     --baby-powder: #FAFAFA;
-    --light: #EFF2E8;
+    --gray-light: #EFF2E8;
   }
 }
 

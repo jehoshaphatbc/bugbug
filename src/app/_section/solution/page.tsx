@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Solution() {
     return (
         <>
-            <section className="bg-light relative" id="solution">
+            <section className="bg-gray-light relative" id="solution">
                 <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 px-8 gap-28 sm:gap-8 py-28">
                     {/* Header Section */}
                     <div className="col-span-ful sm:col-span-1 flex items-center">
@@ -12,7 +12,7 @@ export default function Solution() {
                             <p className="mt-8">
                                 Bringing precision, simplicity, and sustainability to pest management with advanced AI and eco-friendly design principles for a healthier planet and productive crops.
                             </p>
-                            <Link href="/" className="mt-12 rounded-lg bg-primary text-center uppercase text-xs tracking-[3px] px-6 py-4 text-light inline-flex transition duration-150 ease-in-out hover:bg-dark-primary">
+                            <Link href="/" className="mt-12 rounded-lg bg-primary text-center uppercase text-xs tracking-[3px] px-6 py-4 text-gray-light inline-flex transition duration-150 ease-in-out hover:bg-dark-primary">
                                 Discover our solutions
                             </Link>
                         </div>
