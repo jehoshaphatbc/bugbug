@@ -13,8 +13,8 @@ export default function About() {
                         </div>
                         <div className="col-span-full sm:col-span-1 flex flex-col justify-between">
                             <div>
-                                <h1 className="text-5xl">About Us</h1>
-                                <p className="mt-8">Bug Bug Consulting pioneers eco-conscious, AI-driven solutions for insect monitoring in agriculture. Our cutting-edge tools blend sophisticated artificial intelligence with an organic, earth-inspired approach, creating sustainable practices that benefit both crop yields and the environment. With a minimalist, eco-modern design philosophy, our tools are crafted to simplify complex challenges, making data accessible, actionable, and aligned with nature’s rhythms.</p>
+                                <h1 className="text-5xl text-black">About Us</h1>
+                                <p className="mt-8 text-black">Bug Bug Consulting pioneers eco-conscious, AI-driven solutions for insect monitoring in agriculture. Our cutting-edge tools blend sophisticated artificial intelligence with an organic, earth-inspired approach, creating sustainable practices that benefit both crop yields and the environment. With a minimalist, eco-modern design philosophy, our tools are crafted to simplify complex challenges, making data accessible, actionable, and aligned with nature’s rhythms.</p>
                             </div>
                             <div className="mt-4">
                                 <Link href="/" className="rounded-lg bg-primary text-center uppercase text-xs tracking-[3px] px-6 py-4 text-gray-light inline-flex transition duration-150 ease-in-out hover:bg-dark-primary">

@@ -47,14 +47,14 @@ export default function Insight() {
         <section className="bg-white relative">
             <div className="mx-auto max-w-7xl py-28 px-8">
                 <div className="mb-10">
-                    <h1 className="text-5xl leading-normal tracking-wide">Insights and Innovations</h1>
+                    <h1 className="text-5xl leading-normal tracking-wide text-black">Insights and Innovations</h1>
                 </div>
 
                 <div className="flex flex-col sm:flex-row justify-start gap-4 mb-8">
                     <div>
                         <button
                             onClick={() => setSelectedCategory("SHOW_ALL")}
-                            className={`px-4 py-1.5 rounded-lg border uppercase text-xs tracking-[3px] ${
+                            className={`px-4 py-1.5 rounded-lg border uppercase text-xs tracking-[3px] text-black ${
                                 selectedCategory === "SHOW_ALL" ? "bg-secondary border-primary" : "border-primary"
                             }`}
                         >
@@ -67,7 +67,7 @@ export default function Insight() {
                             <button
                                 
                                 onClick={() => setSelectedCategory(category.id)}
-                                className={`px-4 py-2 rounded-lg border uppercase text-xs tracking-[3px] ${
+                                className={`px-4 py-2 rounded-lg border uppercase text-xs tracking-[3px] text-black ${
                                 selectedCategory === category.id
                                     ? "bg-secondary border-primary"
                                     : "border-primary"
@@ -88,8 +88,8 @@ export default function Insight() {
                             <div className="flex-1 bg-gray-light p-8 rounded-lg border border-gray-light group-hover:border-primary duration-300 flex flex-col justify-between">
                                 <div>
                                     <div className="grid grid-cols-1 sm:grid-cols-3">
-                                        <p className="text-xs col-span-full sm:col-span-1 uppercase tracking-[3px] mb-2">{article.date}</p>
-                                        <h2 className="text-xl col-span-full sm:col-span-2">
+                                        <p className="text-xs text-black col-span-full sm:col-span-1 uppercase tracking-[3px] mb-2">{article.date}</p>
+                                        <h2 className="text-xl text-black col-span-full sm:col-span-2">
                                             {article.title}
                                         </h2>
                                     </div>

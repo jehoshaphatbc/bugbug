@@ -9,7 +9,7 @@ export default function Hero() {
                     <div className="h-full col-span-full sm:col-span-2">
                         <span className="text-gray-500 text-xl tracking-wider">AI-powered insect monitoring tools</span>
 
-                        <h1 className="text-4xl sm:text-7xl tracking-widest leading-normal mt-4">
+                        <h1 className="text-4xl sm:text-7xl tracking-widest leading-normal mt-4 text-black">
                         Empowering Sustainable Growth Through Precision Insect Monitoring
                         </h1>
 

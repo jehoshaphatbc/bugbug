@@ -27,29 +27,29 @@ export default function Contact() {
                     <form action="#" method="POST" className="bg-gray-light p-10 space-y-6 rounded-lg">
                         { /* Name */ }
                         <div>
-                            <label className="block text-xs font-semibold uppercase mb-1 tracking-wide">Name</label>
-                            <input type="text" placeholder="e.g Alex Taylor" className="w-full border border-gray-400 bg-white px-4 py-2 rounded-lg" />
+                            <label className="block text-xs text-black font-semibold uppercase mb-1 tracking-wide">Name</label>
+                            <input type="text" placeholder="e.g Alex Taylor" className="w-full border text-black border-gray-400 bg-white px-4 py-2 rounded-lg" />
                             <p className="text-xs text-gray-600 mt-1">Please provide your name so we know how to address you.</p>
                         </div>
 
                         { /* Email */ }
                         <div>
-                            <label className="block text-xs font-semibold uppercase mb-1 tracking-wide">Email Address</label>
-                            <input type="email" placeholder="you@example.com" className="w-full border border-gray-400 bg-white px-4 py-2 rounded-lg" />
+                            <label className="block text-xs text-black font-semibold uppercase mb-1 tracking-wide">Email Address</label>
+                            <input type="email" placeholder="you@example.com" className="w-full border text-black border-gray-400 bg-white px-4 py-2 rounded-lg" />
                             <p className="text-xs text-gray-600 mt-1">Enter a valid email address where we can reach you.</p>
                         </div>
 
                         { /* Phone */ }
                         <div>
-                            <label className="block text-xs font-semibold uppercase mb-1 tracking-wide">Phone Number (Optional)</label>
-                            <input type="tel" placeholder="+1 234 567 8901" className="w-full border border-gray-400 bg-white px-4 py-2 rounded-lg" />
+                            <label className="block text-xs text-black font-semibold uppercase mb-1 tracking-wide">Phone Number (Optional)</label>
+                            <input type="tel" placeholder="+1 234 567 8901" className="w-full border text-black border-gray-400 bg-white px-4 py-2 rounded-lg" />
                             <p className="text-xs text-gray-600 mt-1">Include your phone number if you`d like us to call you.</p>
                         </div>
 
                         { /* Subject */ }
                         <div>
-                            <label className="block text-xs font-semibold uppercase mb-1 tracking-wide">Subject</label>
-                            <select className="w-full border border-gray-400 bg-white px-4 py-2 rounded-lg text-gray-600">
+                            <label className="block text-xs text-black font-semibold uppercase mb-1 tracking-wide">Subject</label>
+                            <select className="w-full border text-black border-gray-400 bg-white px-4 py-2 rounded-lg text-gray-600">
                                 <option>Select a subject</option>
                             </select>
                             <p className="text-xs text-gray-600 mt-1">Choose the topic that best matches your inquiry.</p>
@@ -57,8 +57,8 @@ export default function Contact() {
 
                         { /* Message */ }
                         <div>
-                            <label className="block text-xs font-semibold uppercase mb-1 tracking-wide">Message</label>
-                            <textarea rows={4} placeholder="Type your message here..." className="w-full border border-gray-400 bg-white px-4 py-2 rounded-lg" />
+                            <label className="block text-xs text-black font-semibold uppercase mb-1 tracking-wide">Message</label>
+                            <textarea rows={4} placeholder="Type your message here..." className="w-full border text-black border-gray-400 bg-white px-4 py-2 rounded-lg" />
                             <p className="text-xs text-gray-600 mt-1">Share details about your request, question, or feedback.</p>
                         </div>
 

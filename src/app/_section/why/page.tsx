@@ -19,8 +19,8 @@ export default function Why() {
                     </div>
                     <div className="col-span-full sm:col-span-1 flex flex-col justify-between">
                         <div>
-                            <h1 className="text-5xl">Why Choose Bug Bug?</h1>
-                            <p className="mt-8">At Bug Bug, we prioritize sustainable growth. By merging AI with a respect for natural ecosystems, we provide solutions that enhance agricultural productivity without compromising the earth’s resources. Our commitment to environmental stewardship ensures that every Bug Bug tool not only meets today’s needs but also adapts to tomorrow’s challenges.</p>
+                            <h1 className="text-5xl text-black">Why Choose Bug Bug?</h1>
+                            <p className="mt-8 text-black">At Bug Bug, we prioritize sustainable growth. By merging AI with a respect for natural ecosystems, we provide solutions that enhance agricultural productivity without compromising the earth’s resources. Our commitment to environmental stewardship ensures that every Bug Bug tool not only meets today’s needs but also adapts to tomorrow’s challenges.</p>
                         </div>
                         <div className="mt-4">
                             <Link href="/" className="rounded-lg bg-primary text-center uppercase text-xs tracking-[3px] px-6 py-4 text-gray-light inline-flex transition duration-150 ease-in-out hover:bg-dark-primary">

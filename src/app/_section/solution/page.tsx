@@ -8,8 +8,8 @@ export default function Solution() {
                     {/* Header Section */}
                     <div className="col-span-ful sm:col-span-1 flex items-center">
                         <div>
-                            <h2 className="text-5xl">Our Solutions</h2>
-                            <p className="mt-8">
+                            <h2 className="text-5xl text-black">Our Solutions</h2>
+                            <p className="mt-8 text-black">
                                 Bringing precision, simplicity, and sustainability to pest management with advanced AI and eco-friendly design principles for a healthier planet and productive crops.
                             </p>
                             <Link href="/" className="mt-12 rounded-lg bg-primary text-center uppercase text-xs tracking-[3px] px-6 py-4 text-gray-light inline-flex transition duration-150 ease-in-out hover:bg-dark-primary">
@@ -20,7 +20,7 @@ export default function Solution() {
                     </div>
 
                     {/* Cards Section */}
-                    <div className="col-span-ful sm:col-span-1 flex flex-col gap-6">
+                    <div className="col-span-ful sm:col-span-1 flex flex-col gap-6 text-black">
                         {/* Card 1 */}
                         <div className="bg-white rounded-xl p-6">
                             <h3 className="text-2xl mb-2">AI-driven Monitoring</h3>
