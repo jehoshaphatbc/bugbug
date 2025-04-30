@@ -14,7 +14,7 @@ export default function Testimony() {
             <section className="bg-gray-light relative">
                 <div className="mx-auto max-w-7xl py-28 px-8">
                     <div className="text-center mb-10">
-                        <h1 className="text-5xl leading-normal tracking-wide">What Our Clients are Saying</h1>
+                        <h1 className="text-5xl leading-normal tracking-wide text-black">What Our Clients are Saying</h1>
                     </div>
                     <Carousel></Carousel>
                 </div>
