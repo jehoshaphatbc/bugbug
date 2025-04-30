@@ -88,7 +88,7 @@ export default function Carousel() {
                             className="bg-white rounded-xl p-8 flex flex-col justify-between min-h-96"
                         >
                             <Image src="./quote.svg" width={100} height={100} alt="" className="w-10" />
-                            <p className="italic tracking-wide leading-normal mt-6">{item.body}</p>
+                            <p className="italic tracking-wide leading-normal mt-6 text-black">{item.body}</p>
                             <div className="mt-4 text-black">
                                 <p className="uppercase tracking-[3px] text-sm flex items-center gap-4">
                                     <div className="border-b border-gray-400 w-10"></div>
